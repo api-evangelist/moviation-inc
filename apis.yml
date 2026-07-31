@@ -1,7 +1,29 @@
 aid: moviation-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moviation-inc.png
 name: Moviation, Inc.
-description: Moviation, Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Moviation, Inc. is a Seoul-based advanced air mobility and premium travel
+  company founded in 2022 and backed by 500 Global. It operates Vonaer, an
+  AI-powered luxury mobility platform that orchestrates on-demand travel across
+  private aviation (jets and helicopters), luxury ground transportation
+  (limousines), super yachts, and curated experiences, with planned expansion
+  into electric vertical takeoff and landing (eVTOL) urban air mobility (UAM).
+  Moviation currently runs air-taxi service with conventional helicopters and
+  has partnered with hybrid-eVTOL developer Plana to build out an advanced air
+  mobility (AAM) ecosystem in South Korea. The company reaches customers through
+  the consumer Vonaer app and a concierge membership program; it publishes no
+  public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/moviation-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobility
+- Air Taxi
+- Urban Air Mobility
+- eVTOL
+- Aviation
+- Luxury Travel
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://moviationair.com
+  url: https://www.moviationair.com
+- type: DomainSecurity
+  url: security/moviation-inc-domain-security.yml
+- type: PrivacyPolicy
+  url: https://vonaer.com/legal/privacy
+- type: TermsOfService
+  url: https://vonaer.com/legal/terms
+- type: Support
+  url: https://vonaer.com/contact
+- type: SignUp
+  url: https://vonaer.com/auth
+- type: Pricing
+  url: https://vonaer.com/membership
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
